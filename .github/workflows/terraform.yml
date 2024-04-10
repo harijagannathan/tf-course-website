@@ -78,7 +78,7 @@ jobs:
         terraform init
         terraform workspace select dev
       env:
-        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS 
+        GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
 
     # Checks that all Terraform configuration files adhere to a canonical format
     - name: Terraform Format
