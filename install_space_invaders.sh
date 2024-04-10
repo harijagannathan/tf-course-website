@@ -1,5 +1,4 @@
 #! /bin/bash
-
 apt update
 apt install -y git apache2
 cd /var/www/html
